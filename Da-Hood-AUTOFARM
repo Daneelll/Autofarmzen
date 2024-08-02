@@ -146,9 +146,9 @@ B.BorderColor3 = Color3.fromRGB(0, 0, 0)
 B.BorderSizePixel = 0;
 B.Size = UDim2.new(1, 0, 1, 0)
 BG.Color = ColorSequence.new{
-	ColorSequenceKeypoint.new(0.00, Color3.fromRGB(153, 35, 193)),
-	ColorSequenceKeypoint.new(0.07, Color3.fromRGB(109, 23, 130)),
-	ColorSequenceKeypoint.new(1.00, Color3.fromRGB(204, 204, 204))
+	ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)),
+	ColorSequenceKeypoint.new(0.07, Color3.fromRGB(255, 255, 255)),
+	ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))
 }
 BG.Rotation = 90;
 BG.Name = "BG"
