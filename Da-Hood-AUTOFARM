@@ -178,7 +178,7 @@ UP.Name = "UP"
 UP.Parent = M;
 UP.AnchorPoint = Vector2.new(0.5, 0)
 UP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-UP.BackgroundTransparency = 1.000;
+UP.BackgroundTransparency = 0;
 UP.BorderColor3 = Color3.fromRGB(0, 0, 0)
 UP.BorderSizePixel = 0;
 UP.Position = UDim2.new(0.5, 0, 0, 0)
@@ -186,7 +186,7 @@ UP.Size = UDim2.new(1, 0, 0.400000006, 0)
 ScrollingFrame.Parent = UP;
 ScrollingFrame.Active = true;
 ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScrollingFrame.BackgroundTransparency = 1.000;
+ScrollingFrame.BackgroundTransparency = 0;
 ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ScrollingFrame.BorderSizePixel = 0;
 ScrollingFrame.Size = UDim2.new(1, 0, 1, 0)
@@ -206,7 +206,7 @@ UPP.PaddingTop = UDim.new(0, 28)
 BROKEN.Name = "BROKEN"
 BROKEN.Parent = ScrollingFrame;
 BROKEN.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BROKEN.BackgroundTransparency = 1.000;
+BROKEN.BackgroundTransparency = 0;
 BROKEN.BorderColor3 = Color3.fromRGB(0, 0, 0)
 BROKEN.BorderSizePixel = 0;
 BROKEN.LayoutOrder = 6;
@@ -222,7 +222,7 @@ BROKEN.TextXAlignment = Enum.TextXAlignment.Left;
 EMPTY.Name = "EMPTY"
 EMPTY.Parent = ScrollingFrame;
 EMPTY.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-EMPTY.BackgroundTransparency = 1.000;
+EMPTY.BackgroundTransparency = 0;
 EMPTY.BorderColor3 = Color3.fromRGB(0, 0, 0)
 EMPTY.BorderSizePixel = 0;
 EMPTY.LayoutOrder = 1;
@@ -238,7 +238,7 @@ EMPTY.TextXAlignment = Enum.TextXAlignment.Left;
 PROFIT.Name = "PROFIT"
 PROFIT.Parent = ScrollingFrame;
 PROFIT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-PROFIT.BackgroundTransparency = 1.000;
+PROFIT.BackgroundTransparency = 0;
 PROFIT.BorderColor3 = Color3.fromRGB(0, 0, 0)
 PROFIT.BorderSizePixel = 0;
 PROFIT.LayoutOrder = 4;
@@ -254,7 +254,7 @@ PROFIT.TextXAlignment = Enum.TextXAlignment.Left;
 TIMER.Name = "TIMER"
 TIMER.Parent = ScrollingFrame;
 TIMER.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TIMER.BackgroundTransparency = 1.000;
+TIMER.BackgroundTransparency = 0;
 TIMER.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TIMER.BorderSizePixel = 0;
 TIMER.LayoutOrder = 5;
@@ -270,7 +270,7 @@ TIMER.TextXAlignment = Enum.TextXAlignment.Left;
 TITLE.Name = "TITLE"
 TITLE.Parent = ScrollingFrame;
 TITLE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TITLE.BackgroundTransparency = 1.000;
+TITLE.BackgroundTransparency = 0;
 TITLE.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TITLE.BorderSizePixel = 0;
 TITLE.Size = UDim2.new(1, 0, 0, 17)
@@ -285,7 +285,7 @@ TITLE.TextXAlignment = Enum.TextXAlignment.Left;
 WALLET.Name = "WALLET"
 WALLET.Parent = ScrollingFrame;
 WALLET.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-WALLET.BackgroundTransparency = 1.000;
+WALLET.BackgroundTransparency = 0;
 WALLET.BorderColor3 = Color3.fromRGB(0, 0, 0)
 WALLET.BorderSizePixel = 0;
 WALLET.LayoutOrder = 3;
@@ -301,7 +301,7 @@ WALLET.TextXAlignment = Enum.TextXAlignment.Left;
 USER.Name = "USER"
 USER.Parent = ScrollingFrame;
 USER.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-USER.BackgroundTransparency = 1.000;
+USER.BackgroundTransparency = 0;
 USER.BorderColor3 = Color3.fromRGB(0, 0, 0)
 USER.BorderSizePixel = 0;
 USER.LayoutOrder = 2;
@@ -318,7 +318,7 @@ DOWN.Name = "DOWN"
 DOWN.Parent = M;
 DOWN.AnchorPoint = Vector2.new(0.5, 1)
 DOWN.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-DOWN.BackgroundTransparency = 1.000;
+DOWN.BackgroundTransparency = 0;
 DOWN.BorderColor3 = Color3.fromRGB(0, 0, 0)
 DOWN.BorderSizePixel = 0;
 DOWN.Position = UDim2.new(0.5, 0, 1, 0)
@@ -327,7 +327,7 @@ MH.Name = "MH"
 MH.Parent = DOWN;
 MH.AnchorPoint = Vector2.new(0.5, 0.5)
 MH.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-MH.BackgroundTransparency = 1.000;
+MH.BackgroundTransparency = 0;
 MH.BorderColor3 = Color3.fromRGB(0, 0, 0)
 MH.BorderSizePixel = 0;
 MH.LayoutOrder = 1;
@@ -621,7 +621,7 @@ TOOLTIP.Name = "TOOLTIP"
 TOOLTIP.Parent = MAP;
 TOOLTIP.AnchorPoint = Vector2.new(1, 0.5)
 TOOLTIP.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TOOLTIP.BackgroundTransparency = 0.600;
+TOOLTIP.BackgroundTransparency = 0;
 TOOLTIP.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TOOLTIP.BorderSizePixel = 0;
 TOOLTIP.Position = UDim2.new(0.319000006, 0, 0.901000023, 0)
@@ -634,7 +634,7 @@ HPH.Name = "HPH"
 HPH.Parent = TOOLTIP;
 HPH.AnchorPoint = Vector2.new(0.5, 0.699999988)
 HPH.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-HPH.BackgroundTransparency = 0.500;
+HPH.BackgroundTransparency = 0;
 HPH.BorderColor3 = Color3.fromRGB(0, 0, 0)
 HPH.BorderSizePixel = 0;
 HPH.Position = UDim2.new(0.5, 0, 0.699999988, 0)
@@ -657,7 +657,7 @@ CURRATM.Name = "CURRATM"
 CURRATM.Parent = TOOLTIP;
 CURRATM.AnchorPoint = Vector2.new(0.5, 0.119999997)
 CURRATM.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-CURRATM.BackgroundTransparency = 1.000;
+CURRATM.BackgroundTransparency = 0;
 CURRATM.BorderColor3 = Color3.fromRGB(0, 0, 0)
 CURRATM.BorderSizePixel = 0;
 CURRATM.Position = UDim2.new(0.5, 0, 0.119999997, 0)
@@ -687,11 +687,11 @@ EMPTY2.Text = ""
 EMPTY2.LayoutOrder = 10
 EMPTY2.Size = UDim2.new(1, 0, 0, 25) 
 TTS.Color = Color3.fromRGB(50, 12, 72)
-TTS.Transparency = 0.65
-HPT.BackgroundTransparency = 1 
+TTS.Transparency = 0
+HPT.BackgroundTransparency = 0
 HPT.Font = Enum.Font.RobotoMono
 HPT.TextColor3 = Color3.fromRGB(1, 1, 1)
-HPT.TextTransparency = 0.3
+HPT.TextTransparency = 0
 HPT.Text = "100/100"
 HPT.TextSize = 15
 HPT.Parent = HPH 
@@ -699,7 +699,7 @@ HPT.Size = UDim2.new(1, 0, 1, 0)
 TOOLTIP.BackgroundTransparency = 0.2
 SG.IgnoreGuiInset = true 
 MS.Parent = M
-USER.Text = "| Username - @CZXPEK"
+USER.Text = "| Username - @sickmery"
 
 --SG.Enabled = false
 
@@ -908,18 +908,23 @@ local Attack = function()
 	end
 end
 
-local AntiSit = function(Char)
-	task.wait(1)	
-	local Hum = Char:WaitForChild("Humanoid")
-	Hum.Seated:Connect(function()
-		warn("SITTING")
-		Hum.Sit = false
-		Hum:SetStateEnabled(Enum.HumanoidStateType.Seated, false)
-		task.wait(0.3)
-		Hum.Jump = true
-		--// theres prob a better method to do this but im lazy lol
-	end)
+local function AntiSit(Char)
+    task.wait(1)  -- Wait for a second to ensure the character is fully loaded
+    local Humanoid = Char:WaitForChild("Humanoid")  -- Wait until the Humanoid object is found
+
+    -- Function to handle the Seated event
+    local function onSeated()
+        warn("SITTING")  -- Output a warning to the console
+        Humanoid.Sit = false  -- Immediately prevent the humanoid from sitting
+        Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated, false)  -- Disable the Seated state
+        task.wait(0.3)  -- Wait for a short duration to ensure the state is disabled
+        Humanoid.Jump = true  -- Make the humanoid jump to stand up
+    end
+
+    -- Connect the Seated event to the onSeated function
+    Humanoid.Seated:Connect(onSeated)
 end
+
 
 --// Main
 task.spawn(function()
